@@ -35,3 +35,5 @@ int main() {
 
     return 0;
 }
+
+/*Given a sorted array nums and a target value target, return the indices of the two numbers such that they add up to the target. You must solve it using the Two Pointers techniqu*/
