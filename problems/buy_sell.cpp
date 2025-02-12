@@ -16,6 +16,24 @@ int max_Profit(vector<int>& prices){
     return maxProfit;
 }
 
+/*int maxProfit(vector<int>& prices) {
+
+        int min_value = prices[0];
+        int profit = 0;
+
+        for(int i=1; i<prices.size();i++){
+
+            if(min_value > prices[i]){
+
+                min_value=prices[i];
+            }
+            else if(min_value < prices[i]){
+                profit = max(profit,prices[i]-min_value);
+            }
+        }
+        return profit;
+    }*/
+
 int main(){
 
     vector<int> prices = {7,1,5,3,6,4};
