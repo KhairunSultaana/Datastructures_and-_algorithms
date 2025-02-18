@@ -125,26 +125,4 @@ css
 Copy
 Edit
 nums[0] + nums[1] = 2 + 7 = 9
-Time and Space Complexity
-Time Complexity:
-Each number is processed once, and lookups in the hash map are 
-𝑂
-(
-1
-)
-O(1).
-Total: 
-𝑂
-(
-𝑛
-)
-O(n), where 
-𝑛
-n is the size of the array.
-Space Complexity:
-The hash map requires 
-𝑂
-(
-𝑛
-)
-O(n) space to store numbers and indices. */
+ */
