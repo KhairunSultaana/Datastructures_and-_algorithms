@@ -37,10 +37,4 @@ Index 1 → 5 >= 2 → h = 2
 Index 2 → 3 >= 3 → h = 3
 Index 3 → 1 < 4 → Stop.
 Final h-index: 3
-Example 2: citations = [1, 3, 1]
-Sort: [3, 1, 1]
-Iterate and check:
-Index 0 → 3 >= 1 → h = 1
-Index 1 → 1 < 2 → Stop.
-Final h-index: 1
 */
