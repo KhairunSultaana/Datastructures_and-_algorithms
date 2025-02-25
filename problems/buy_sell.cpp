@@ -44,7 +44,7 @@ int main(){
 
 }
 
-/* Add description
+/*
 How It Works
 Track the minimum price: Keep updating the minimum price while iterating.
 Calculate profit: Compute the profit if the stock is sold at the current price.
